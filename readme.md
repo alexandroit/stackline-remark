@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/remark.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark)
 [![license](https://img.shields.io/npm/l/@stackline/remark.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/remark/)** | **[npm](https://www.npmjs.com/package/@stackline/remark)** | **[Issues](https://github.com/alexandroit/stackline-remark/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/remark@1.0.1` |
+| Package | `@stackline/remark@1.0.2` |
 | API target | `remark@14.0.3` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
