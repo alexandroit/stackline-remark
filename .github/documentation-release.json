@@ -1,0 +1,35 @@
+{
+  "repository": "alexandroit/stackline-remark",
+  "packages": [
+    {
+      "name": "@stackline/remark",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "remark",
+        "markdown",
+        "typescript",
+        "unified",
+        "mdast",
+        "abstract",
+        "syntax",
+        "tree",
+        "ast",
+        "parse",
+        "stringify",
+        "serialize",
+        "compile",
+        "process",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/remark/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/remark/-/remark-1.0.0.tgz",
+      "baselineIntegrity": "sha512-vVo2LUgJrcFeXKrgwof89wBlsaDW97nSxmy2kvVlbLWipngHEjGVB8ptYLLzCYqQkaL+mTD5Lw/bGrR96/Ht0A==",
+      "expectedSha512": "61cb54dee9c7d6bb9c0101ba47bd0906f54a55adca6d00d9a3c23eedfd8801d182e65cb691f491057d49a11e51679f853572612caac2234c91617aadd5af0a9a",
+      "tag": "docs-stackline-remark-v1.0.1"
+    }
+  ]
+}
