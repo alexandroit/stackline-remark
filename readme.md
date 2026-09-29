@@ -1,28 +1,52 @@
 # @stackline/remark
 
-Independent maintenance fork of `remark@14.0.3`, preserving its API and published type declarations.
+> unified processor with support for parsing markdown input and serializing markdown as output.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/remark.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark)
+[![license](https://img.shields.io/npm/l/@stackline/remark.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/remark/)** | **[npm](https://www.npmjs.com/package/@stackline/remark)** | **[Issues](https://github.com/alexandroit/stackline-remark/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/remark` is the Stackline-maintained distribution of `remark@14.0.3`. It is an independent continuation of [remark](https://github.com/remarkjs/remark); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/remark@1.0.1` |
+| API target | `remark@14.0.3` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/mdast, remark-parse, remark-stringify` |
+
+## Installation
+
+```bash
 npm install @stackline/remark
-# Keep existing imports:
-npm install remark@npm:@stackline/remark@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install remark@npm:@stackline/remark
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# remark
+### remark
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 **[unified][]** processor with support for parsing markdown input and
 serializing markdown as output.
@@ -78,7 +102,7 @@ This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install remark
+npm install @stackline/remark
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -100,7 +124,7 @@ In browsers with [`esm.sh`][esmsh]:
 Say we have the following module `example.js`:
 
 ```js
-import {remark} from 'remark'
+import {remark} from '@stackline/remark'
 import remarkGfm from 'remark-gfm'
 import remarkToc from 'remark-toc'
 
@@ -150,7 +174,7 @@ some best practices:
 
 ```js
 import {reporter} from 'vfile-reporter'
-import {remark} from 'remark'
+import {remark} from '@stackline/remark'
 import remarkPresetLintConsistent from 'remark-preset-lint-consistent'
 import remarkPresetLintRecommended from 'remark-preset-lint-recommended'
 
@@ -185,7 +209,7 @@ To define options for `remark-stringify`, you can instead pass options to
 `data`:
 
 ```js
-import {remark} from 'remark'
+import {remark} from '@stackline/remark'
 
 main()
 
@@ -258,7 +282,7 @@ abide by its terms.
 
 Support this effort and give back by sponsoring on [OpenCollective][collective]!
 
-<!--lint ignore no-html-->
+
 
 <table>
 <tr valign="middle">
@@ -288,7 +312,7 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 <tr valign="middle">
 <td width="20%" align="center" rowspan="2" colspan="2">
   <a href="https://www.netlify.com">Netlify</a><br><br>
-  <!--OC has a sharper image-->
+  
   <a href="https://www.netlify.com"><img src="https://images.opencollective.com/netlify/4087de2/logo/256.png" width="128"></a>
 </td>
 <td width="10%" align="center">
@@ -328,7 +352,7 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/remarkjs/remark/workflows/main/badge.svg
 
@@ -393,3 +417,23 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 [remark-stringify]: ../remark-stringify
 
 [remark-cli]: ../remark-cli
+
+## Credits and original authors
+
+- Original project: [remark](https://github.com/remarkjs/remark).
+- Titus Wormer.
+- Copyright (c) 2014-2020 Titus Wormer <tituswormer@gmail.com>.
+- Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/).
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
